@@ -9,10 +9,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
 body{
     background-color: #F234C9;
     height: 100vh;
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
 
 }
 
@@ -27,9 +29,9 @@ h1{
     
 
 p{   
-    width: 67vw;
-    margin-top: 22vh;
-    margin-left: 6vw;
+   width: 72vw;
+    margin-top: 17vh;
+    margin-left: 4vw;
     text-align: center;
     color: #F5F93B;
     font-size: 3.4vh;
@@ -120,20 +122,24 @@ footer{
     "footer footer footer"
     }
 
+.containerOp{
+    opacity: 0
+}
+
 #logo img{
     background: #F234C9;
     grid-area: logo;
     margin-top: 5vh;
-    height: 13vh;
-    width: 49vw;
+    height: 10vh;
+    width: 60vw;
     }
 
 
 #menu{
     background: #F234C9;
     grid-area: menu;
-    text-align: right;
-    margin: 6vh 4vh 0vh 0vh;
+    /*text-align: right;*/
+    margin: 1vh 0vh 0vh 5vh;
      }
     
     
@@ -142,8 +148,8 @@ footer{
     grid-area: timeline;
     display: flex;
     flex-direction: column;
-    margin-top: 6vh;
-    
+    /*margin-top: 6vh;*/
+    height: 62vh
     
     }
     
@@ -157,8 +163,8 @@ footer{
     }
 
 #year img{
-    margin: 2vh 0 3.2vh -70px;
-    width: 26vw;
+    margin: -3vh 0 8.3vh -30vw;
+    width: 32vw;
 }
 
 
@@ -172,18 +178,18 @@ footer{
 
 #picture img{
     width: 32vw;
-    margin: -1vh 47px 0vh -9px;
+    margin: -6vh 1vw 6.2vh 0;
 }
 
 .infoBox1{
     position: absolute;
-    margin-left: 4vh;
-    margin-top: 18vh;
+    margin-left: 5vw;
+    margin-top: 26vh;
     width: 80%;
-    height: 50%;
+    height: 48%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     font-size:2em
     
     
@@ -191,20 +197,20 @@ footer{
     
 .infoBox2{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
+    margin-top: 28vh;
+    margin-left: 5vw;
     width: 80%;
-    height: 50%;
+    height: 52%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
     font-size:2em
 }
 .infoBox3{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
+    margin-top: 30vh;
+    margin-left: 5vw;
     width: 80%;
-    height: 50%;
+    height: 52%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
     font-size:2em
@@ -212,10 +218,10 @@ footer{
 
 .infoBox4{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
+    margin-top: 32vh;
+    margin-left: 5vw;
     width: 80%;
-    height: 50%;
+    height: 63%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
     font-size:2em
@@ -229,27 +235,29 @@ footer{
 }
 
 .barbie_icon1 img{
-    width: 35vw;
-    margin-top: -5vh;
-    margin-right: 11vw;
+    width: 52vw;
+    margin-top: -1vh;
+    margin-right: 5vw;
 }
 .barbie_icon2 img{
-    width: 35vw;
-    margin-top: -3vh;
-    margin-right: 10vw;
+    width: 50vw;
+    margin-top: -2vh;
+    margin-right: 6vw;
 }
 
 .barbie_icon3 img {
-       width: 35vw;
-    margin-top: -2vh;
-    margin-left: 25vw;
-    margin-bottom: -23vh;}
+    width: 50vw;
+    margin-top: 0vh;
+    margin-left: 20vw;
+    margin-bottom: -20vh;
+}
 
 .barbie_icon4 img {
-    width: 35vw;
-    margin-top: -2vh;
-    margin-left: 25vw;
-    margin-bottom: -22vh;}
+    width: 50vw;
+    margin-top: 0vh;
+    margin-left: 19vw;
+    margin-bottom: -20vh;
+}
 
 .barbie_icon2 {
     position: absolute;
@@ -271,17 +279,18 @@ footer{
 }
     
 .footerlogo{
-    width: 19vw;
+   width: 38vw;
     height: 6vh;
-    margin-left: 38vw;
+    margin-left: 29vw;
     margin-top: 2vh;
 }
 
 .footerwords{
-    font-size: 3.8vh;
-    margin-left: 14vw;
+   font-size: 2.8vh;
+    margin-left: -8vw;
     margin-top: 1vh;
-    width:51.8vh
+    width: 51.8vh 
+}
     
           
 
@@ -338,16 +347,16 @@ flex: 1;
     height: 2em;
     width: 5em;
     border-radius: 2em;
-    margin-left: 20vw;
+    margin-left: 2vw;
     background-color: #8100A7;
     
 }
 
 .line{
     background-color: #F5F93B;
-    width: 1vw;
-    height: 9.5vh;
-    margin-left: 23vw;
+    width: 2vw;
+    height: 15vh;
+    margin-left: 6vw;
     
     
 }
@@ -374,7 +383,7 @@ p {
     }
     
 .text1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     color: #F5F93B;
     margin: 18vh 0px 2vh 41px;
     font-size: 3.9vh}
@@ -396,21 +405,21 @@ p {
     margin-left: 1vh;
     width: 77vw;
 }
-    }
+    
     
 .circle{
     height: 2em;
     width: 5em;
     border-radius: 2em;
-    margin-left: 20vw;
+    margin-left: 6vw;
     background-color: #8100A7;
 }
 
 .line{
     background-color: #F5F93B;
     width: 1vw;
-    height: 11.5vh;
-    margin-left: 24vw;
+    height: 13.8vh;
+    margin-left: 9vw;
 }
 
 
@@ -427,28 +436,31 @@ p {
     top: 56px;
     right: 71px;
     font-size: 18px; 
- }
-    
-
+}
     
 #timeline{      
-    margin-top: 5vh;
+    margin-top: 0vh;
+    height:80vh
 }
     
 #picture img{
     width: 32vw;
-    margin: -3vh 47px 0vh -9px;
+    margin: -5.5vh 0vw 4.2vh -3vw;
+}
+#year img{
+    margin: -3vh 0 8vh -30vw;
+    width: 32vw;
 }
     
 .infoBox1{
     position: absolute;
-    margin-left: 3vh;
+    margin-left: 4vh;
     margin-top: 18vh;
     width: 80%;
-    height: 50%;
+    height: 53%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     font-size:2em
     
     
@@ -456,18 +468,18 @@ p {
     
 .infoBox2{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
-    width: 80%;
-    height: 50%;
+    margin-top: 22vh;
+    margin-left: 8vw;
+    width: 78%;
+    height: 54%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
-    font-size:2em
+    font-size: 2em;
 }
 .infoBox3{
     position: absolute;
-    margin-top: 46vh;
-    margin-left: 2vw;
+    margin-top: 26vh;
+    margin-left: 4vw;
     width: 80%;
     height: 50%;
     background: #BD00FF;
@@ -477,8 +489,8 @@ p {
 
 .infoBox4{
     position: absolute;
-    margin-top: 65vh;
-    margin-left: 10vw;
+    margin-top: 30vh;
+    margin-left: 4vw;
     width: 80%;
     height: 50%;
     background: #BD00FF;
@@ -488,9 +500,9 @@ p {
 
 
 .barbie_icon1 img{
-    width: 39vw;
+    width: 40vw;
     margin-top: -5vh;
-    margin-right: 6vw;
+    margin-right: 5vw;
 }
 .barbie_icon2 img{
     width: 39vw;
@@ -523,17 +535,17 @@ p {
 }
     
 .footerlogo{
-    width: 26vw;
-    height: 6vh;
-    margin-left: 35vw;
+    width: 38vw;
+    height: 7vh;
+    margin-left: 32vw;
     margin-top: 2vh;
 }
 
 .footerwords{
-    font-size: 3.4vh;
-    margin-left: 5vw;
+    font-size: 3.8vh;
+    margin-left: -1vw;
     margin-top: 1vh;
-    width:51.8vh
+    width: 57.8vh;
 }
 
 }
@@ -545,14 +557,24 @@ p {
 
 @media screen and (min-width: 768px){
     
-
+#menu img{
+    width: 17vw;
+    margin: 1vh 0vw 0vh 19vw  
+    }
+#logo img{
+    background: #F234C9;
+    grid-area: logo;
+    margin-top: 5vh;
+    height: 14vh;
+    width: 56vw;
+    }
     
 .logo img{"images/logo.png"
     height:70vh
     }
     
 .text1{
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     text-align: center;
     color: #F5F93B;
     margin: 7vh 0px 2vh 49px;
@@ -576,7 +598,7 @@ p {
     height: 2em;
     width: 5em;
     border-radius: 2em;
-    margin-left: 20vw;
+    margin-left: 11vw;
     background-color: #8100A7;
     }
 
@@ -584,15 +606,19 @@ p {
     background-color: #F5F93B;
     width: 1vw;
     height: 15.5vh;
-    margin-left: 22vw;
+    margin-left: 13vw;
     }
 
 
 .text1{
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     color: #F5F93B;
-    margin: 21vh 0px 2vh 49px;
+    margin: 22vh 0px 2vh 49px;
     font-size: 4vh;
+    }
+    
+.text2{
+    margin-top: 21vh    
     }
     
 .barbie_icon1 {
@@ -612,24 +638,29 @@ p {
 
     
 #timeline{      
-    height: 75vh;
+    margin-top:7vh;
+    height: 85vh;
     } 
-
+    
+#year img{
+    margin: 3vh 0 -0.5vh -30vw;
+    width: 32vw;
+    }
 
 #picture img{
     width: 28vw;
-    margin: -3vh 47px 0vh -9px;
+    margin: 0vh 14vw -3vh 0vw;
     }
     
 .infoBox1{
     position: absolute;
     margin-left: 4vh;
-    margin-top: 18vh;
+    margin-top: 22vh;
     width: 80%;
     height: 50%;
     background: #BD00FF;
     border: 0.35em solid #F5F93B;
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', cursive;
     font-size:2em
     
     
@@ -637,8 +668,8 @@ p {
     
 .infoBox2{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
+    margin-top: 28vh;
+    margin-left: 8vw;
     width: 80%;
     height: 50%;
     background: #BD00FF;
@@ -648,7 +679,7 @@ p {
 .infoBox3{
     position: absolute;
     margin-top: 35vh;
-    margin-left: 12vw;
+    margin-left: 8vw;
     width: 80%;
     height: 50%;
     background: #BD00FF;
@@ -658,8 +689,8 @@ p {
 
 .infoBox4{
     position: absolute;
-    margin-top: 35vh;
-    margin-left: 12vw;
+    margin-top: 45vh;
+    margin-left: 8vw;
     width: 80%;
     height: 50%;
     background: #BD00FF;
@@ -704,17 +735,17 @@ p {
     }
     
 .footerlogo{
-    width: 19vw;
+    width: 23vw;
     height: 6vh;
-    margin-left: 38vw;
+    margin-left: 37vw;
     margin-top: 2vh
     }
 
 .footerwords{
     font-size: 3.9vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
     margin-top: 1vh;
-    width: 51.8vh;
+    width: 60.8vh;
 }
     
 }
@@ -726,21 +757,225 @@ p {
     
 @media screen and (min-width: 992px){
     
-    
+        
+#logo img{     
+    height: 19vw
 }
     
+.circle{
+    margin-left: 20vw
+    }
+    
+#year img {
+    margin: 2vh 1px -0.5vh -21vw;
+    width: 27vw;
+}
+
+#picture img {
+    width: 24vw;
+    margin: -2vh 14vw -3vh 0vw;
+}
+      
+.line{
+    height: 15.6vh;
+    margin-left: 22vw;
+    }
+    
+.footerlogo{
+    height: 8vh
+    }
+    
+.footerwords {
+    font-size: 4.9vh;
+    margin-left: 13vw;
+    width: 70.8vh; 
+} 
+    
+.barbie_icon1 img {
+    width: 29vw;
+    margin-top: -5vh;
+    margin-right: 18vw;    
+}
+    
+.barbie_icon2 img {
+    width: 29vw;
+    margin-top: -3vh;
+    margin-right: 16vw}
+    
+.barbie_icon3 img {
+    width: 29vw;
+    margin-left: 28vw;}
+    
+.barbie_icon4 img {
+    width: 29vw;
+    margin-left: 27vw;}
+    
+.text1{
+    width: 69vw;
+    margin-top: 24vh
+    }   
+    
+.text2 {
+    margin-top: 22vh;
+    margin-left: 1vw;
+    font-size: 1.4em;
+    width: 77vw;}
+    
+.text3 {
+    margin-top: 20vh;}
+    
+.infobox2{
+    height:52%
+}
+    
+}
     
     
 
 @media screen and (min-width: 1200px){
     
+#year img {
+    margin: 0vh 1px -0.5vh -8vw;
+    width: 26vw;
+}
+
+footer {
+    margin-top: 27vh;}
+    
+.footerlogo {
+    height: 9vh;}
+    
+.footerwords {
+    font-size: 5.9vh;
+    width: 88.8vh;}
+    
+.line {
+    height: 16.5vh;}
+    
+#picture img {
+    width: 20vw;
+    margin: -2vh 14vw -2vh 0vw;
+}
+    
+#logo img {
+    height: 15vw;
+    width: 42vw;
+}
+    
+.text1 {
+    width: 37vw;
+    margin-top: 4vh;
+    font-size: 1.5em;
+}
+    
+.text2 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 37vw;
+}
+    
+.text3 {
+    margin-top: -19vh;
+    margin-left: 6vw;
+    width: 37vw;
+    font-size: 1.5em;
+}
+
+.text4 {
+    font-size: 1.3em;
+    margin-top: -17vh;
+    margin-left: 3vh;
+    width: 41vw;}
+    
+.barbie_icon1 img {
+    width: 37vw;
+    margin-top: -1vh;
+    margin-right: -3vw;}
+    
+.barbie_icon2 img {
+    width: 37vw;
+    margin-top: 1vh;
+    margin-right: -5vw;
+}
+    
+.barbie_icon3 img {
+    width: 37vw;
+    margin-left: 45vw;
+    margin-top: 2vh;
+}
+    
+.barbie_icon4 img {
+    width: 37vw;
+    margin-left: 45vw;
+    margin-top: 2vh;
+}
+    
+.infoBox1 {
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 29vh;}
+    
+.infoBox2 {
+    height: 52%;
+
     
 }
     
+}
     
     
     
 @media screen and (min-width: 1400px){
-    
-    
+
+#menu img {
+    width: 13vw;}
+
+#year img {
+    margin: 1vh 0vw -3.5vh 6vw;
+    width: 25vw;
 }
+#logo img {
+    height: 9vw;
+    width: 29vw;}
+
+#picture img {
+    width: 18vw;
+    margin: -2vh 14vw -3vh 0vw;}
+
+.line {
+    height: 17.5vh;
+    margin-left: 21vw;
+}
+    
+.footerwords {
+    margin-left: 16vw}
+    
+.barbie_icon1 img {
+    margin-top: -4vh;
+    margin-right: -6vw;}
+
+.barbie_icon2 img {
+    margin-top: -1vh;
+    margin-right: -6vw;}
+    
+.barbie_icon3 img {
+    margin-top: -1vh;}
+    
+.barbie_icon4 img {
+    margin-top: -1vh;}
+    
+    
+.text1 {
+    width: 38vw;
+    margin-top: 7vh;}
+    
+.text3 {
+    margin-top: -23vh;}
+
+.text4 {
+    margin-top: -20vh;
+    width: 43vw;}
+
+
+}
+    

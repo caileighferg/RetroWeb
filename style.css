@@ -882,52 +882,52 @@ footer {
 }
     
 .text1 {
-    width: 37vw;
-    margin-top: 4vh;
-    font-size: 1.5em;
+    width: 36vw;
+    margin-top: 3vh;
+    font-size: 1.2em;
+    margin-left: 8vw;
 }
     
 .text2 {
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-left: 5vw;
-    width: 37vw;
+    width: 42vw;
+    font-size: 1.2em;
 }
     
 .text3 {
-    margin-top: -19vh;
+    margin-top: -30vh;
     margin-left: 6vw;
-    width: 37vw;
-    font-size: 1.5em;
-}
+    width: 39vw;
+    font-size: 1.3em;}
 
 .text4 {
-    font-size: 1.3em;
-    margin-top: -17vh;
+    font-size: 1.2em;
+    margin-top: -29vh;
     margin-left: 3vh;
-    width: 41vw;}
+    width: 49vw;
+}
     
 .barbie_icon1 img {
-    width: 29vw;
-    margin-top: -6vh;
-    margin-right: -3vw;}
+    width: 27vw;
+    margin-top: -10vh;
+    margin-right: -3vw;
+}
     
 .barbie_icon2 img {
-    width: 37vw;
-    margin-top: 1vh;
-    margin-right: -5vw;
-}
+    width: 27vw;
+    margin-top: -7vh;
+    margin-right: -4vw;}
     
 .barbie_icon3 img {
-    width: 37vw;
-    margin-left: 45vw;
-    margin-top: 2vh;
-}
+    width: 27vw;
+    margin-left: 51vw;
+    margin-top: -3vh;}
     
 .barbie_icon4 img {
-    width: 37vw;
-    margin-left: 45vw;
-    margin-top: 2vh;
-}
+    width: 27vw;
+    margin-left: 52vw;
+    margin-top: -3vh;}
     
 .infoBox1 {
     position: absolute;
